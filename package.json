@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sherifzidan.github.io/sherif-portfolio",
-  "name": "sherif-portfolio",
+  "homepage": "https://sherifzidan-github-io.vercel.app/",
+  "name": "developer-portfolio-v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
