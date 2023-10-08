@@ -1,14 +1,14 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'JPMorgan Chase & Co',
-        jobtitle: 'Cybersecurity Data Analyst',
+        company: 'JPMorgan Chase & Co Job Simulation',
+        jobtitle: 'Cybersecurity Data Analyst ',
         startYear: 'Sep 2023',
         endYear: 'Sep 2023'
     },
     {
         id: 2,
-        company: 'DATACOM',
+        company: 'DATACOM Job Simulation',
         jobtitle: 'Cyber Threat Analyst',
         startYear: 'Sep 2023',
         endYear: 'Sep 2023'
