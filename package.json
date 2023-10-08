@@ -1,5 +1,6 @@
 {
-  "name": "developer-portfolio-v2",
+  "homepage": "https://sherifzidan.github.io/sherif-portfolio",
+  "name": "sherif-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,17 +32,29 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build --debug"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "http-server": "^14.1.1"
-  },
-  "homepage": "https://sherifzidan.github.io"
+  }
+
 }
